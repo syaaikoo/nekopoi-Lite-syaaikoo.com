@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif; 
+    background: linear-gradient(180deg, #ff9a9e, #fecfef); 
+    background-size: 300% 300%; 
+    animation: gradientAnimation 3s ease infinite; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column; /* Mengatur flex direction ke kolom */
+    justify-content: center; 
+    align-items: center; 
+    margin: 0; 
+}
+
+.logo {
+    display: block; 
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 859px; 
+    height: auto; 
+    padding-top: 20px; 
+    order: -1; /* Pastikan logo muncul di atas */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%; /* Mulai dari posisi awal */
+    }
+    50% {
+        background-position: 100% 50%; /* Pergi ke posisi akhir */
+    }
+    100% {
+        background-position: 0% 50%; /* Kembali ke posisi awal */
+    }
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #ffffff; /* Warna putih untuk kartu */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    padding: 20px; /* Menambahkan padding pada kartu */
+    box-sizing: border-box; /* Menghindari perubahan ukuran total */
+}
+
+.text-center1 {
+    text-align: center; /* Untuk teks di tengah */
+    margin-top: 0px; /* Geser ke bawah */
+    margin-bottom: 50px; /* Geser ke atas */
+    padding-left: 0px; /* Geser ke kanan */
+    padding-right: 0px; /* Geser ke kiri */
+}
+
+.btn-primary {
+    background-color: #ff6b81; /* Warna tombol login */
+    border: none; /* Hilangkan border */
+}
+
+.btn-secondary {
+    background-color: #ff9a9e; /* Warna tombol daftar */
+    border: none; /* Hilangkan border */
+}
+
+.btn-success {
+    background-color: #fecfef; /* Warna hijau untuk tombol sukses */
+    border: none; /* Hilangkan border */
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 5px;
+}
+
+.logo {
+    display: block; /* Membuat gambar sebagai block untuk centering */
+    margin: 0 auto; /* Center gambar secara horizontal */
+    width: 100%; /* Mengatur lebar agar responsif */
+    max-width: 859px; /* Mengatur lebar maksimum sesuai rasio */
+    height: auto; /* Menjaga rasio asli */
+    padding-top: 20px; /* Tambahkan sedikit jarak di atas */
+}
