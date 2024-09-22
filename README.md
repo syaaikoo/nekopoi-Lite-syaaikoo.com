@@ -1,1 +1,1 @@
-# nekopoi-Lite-syaaikoo.com
+# nekopoi-syaaikoo.com
